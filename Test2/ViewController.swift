@@ -17,9 +17,8 @@ class ViewController: UIViewController {
         let wlabel = UILabel(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 150))
         wlabel.center = view.center
         wlabel.textAlignment = .center
-        wlabel.text = "Hello, World"
+        wlabel.text = "Hello, World Again"
         self.view.addSubview(wlabel)
-
     }
 
     override func didReceiveMemoryWarning() {
