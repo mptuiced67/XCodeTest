@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         wlabel.textAlignment = .center
         wlabel.textColor = .blue
         wlabel.font = UIFont(name: "Helvetica Neue", size: 50)
-        wlabel.text = "Hello, World!"
+        wlabel.text = "Hello, World"
         self.view.addSubview(wlabel)
     }
 
